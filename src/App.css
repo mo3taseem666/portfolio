@@ -1,0 +1,88 @@
+.animate {
+  animation: animate;
+  animation-duration: 1s;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+  0% {
+    top: -4px;
+    left: 0px;
+  }
+   25% {
+    top: -4px;
+    left: 806px;
+  }
+  30% {
+    top: -45px;
+    left: 806px;
+  }
+  50% {
+    top: -45px;
+    left: 1500px;
+  } 
+   55% {
+    top: 37px;
+    left: 1500px;
+  }
+  75% {
+    top: 37px;
+    left: 806px;
+  }
+  80% {
+    top: -4px;
+    left: 806px;
+  }
+  100% {
+    top: -4px;
+    left: 0px;
+  } 
+}
+
+
+.animate2 {
+    animation: animate2;
+    animation-duration: 1s;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animate2 {
+    0% {
+      top: -4px;
+      left: 0px;
+    }
+     25% {
+      top: -4px;
+      left: 806px;
+    }
+    30% {
+      top: 37px;
+      left: 806px;
+    }
+    50% {
+      top: 37px;
+      left: 1500px;
+    } 
+     55% {
+      top: -45px;
+      left: 1500px;
+    }
+    75% {
+      top: -45px;
+      left: 806px;
+    }
+    80% {
+      top: -4px;
+      left: 806px;
+    }
+    100% {
+      top: -4px;
+      left: 0px;
+    } 
+  }
+  
+

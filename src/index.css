@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.flip-box {
+    width: 450px;
+    height: 300px;
+    perspective: 1000px;
+  }
+
+
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .front {
+    background-color: #153B47;
+    color: #66cae9;
+  }
+
+
+  .back {
+    color: #b4e3f1;
+    transform: rotateY(180deg);
+    background: #215868;
+  }
