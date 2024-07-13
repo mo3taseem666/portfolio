@@ -8,6 +8,8 @@ import Cursor from "./components/Home/Cursor";
 import forbg1 from './assets/forbg1.png'
 import forbg2 from './assets/forbg2.png'
 import ForBg from "./components/Home/ForBg";
+import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [value, setValue] = useState(-100);
@@ -38,6 +40,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home cursorClicked={cursorClicked} setcursorClicked={setcursorClicked} click={click} setClick={setClick} show={show} setShow={setShow} />}></Route>
           <Route path="/projects" element={<ProjectsHome setClick={setClick} />} />
+          <Route path="/about" element={<About setClick={setClick} />} />
+          <Route path="/contact" element={<Contact setClick={setClick} />} />
         </Routes>
         </div>
 
